@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D62FE0842CDCACDF00A6540E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62FE0602CDCACDD00A6540E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62FE0672CDCACDD00A6540E;
+			remoteInfo = "Objective-C-PencilKit";
+		};
+		D62FE08E2CDCACDF00A6540E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62FE0602CDCACDD00A6540E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62FE0672CDCACDD00A6540E;
+			remoteInfo = "Objective-C-PencilKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62FE0682CDCACDD00A6540E /* Objective-C-PencilKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-PencilKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62FE0832CDCACDF00A6540E /* Objective-C-PencilKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-PencilKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62FE08D2CDCACDF00A6540E /* Objective-C-PencilKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-PencilKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D62FE0952CDCACDF00A6540E /* Exceptions for "Objective-C-PencilKit" folder in "Objective-C-PencilKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D62FE0672CDCACDD00A6540E /* Objective-C-PencilKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D62FE06A2CDCACDD00A6540E /* Objective-C-PencilKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D62FE0952CDCACDF00A6540E /* Exceptions for "Objective-C-PencilKit" folder in "Objective-C-PencilKit" target */,
+			);
+			path = "Objective-C-PencilKit";
+			sourceTree = "<group>";
+		};
+		D62FE0862CDCACDF00A6540E /* Objective-C-PencilKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-PencilKitTests";
+			sourceTree = "<group>";
+		};
+		D62FE0902CDCACDF00A6540E /* Objective-C-PencilKitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-PencilKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62FE0652CDCACDD00A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0802CDCACDF00A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE08A2CDCACDF00A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62FE05F2CDCACDD00A6540E = {
+			isa = PBXGroup;
+			children = (
+				D62FE06A2CDCACDD00A6540E /* Objective-C-PencilKit */,
+				D62FE0862CDCACDF00A6540E /* Objective-C-PencilKitTests */,
+				D62FE0902CDCACDF00A6540E /* Objective-C-PencilKitUITests */,
+				D62FE0692CDCACDD00A6540E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62FE0692CDCACDD00A6540E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62FE0682CDCACDD00A6540E /* Objective-C-PencilKit.app */,
+				D62FE0832CDCACDF00A6540E /* Objective-C-PencilKitTests.xctest */,
+				D62FE08D2CDCACDF00A6540E /* Objective-C-PencilKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62FE0672CDCACDD00A6540E /* Objective-C-PencilKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE0962CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKit" */;
+			buildPhases = (
+				D62FE0642CDCACDD00A6540E /* Sources */,
+				D62FE0652CDCACDD00A6540E /* Frameworks */,
+				D62FE0662CDCACDD00A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE06A2CDCACDD00A6540E /* Objective-C-PencilKit */,
+			);
+			name = "Objective-C-PencilKit";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PencilKit";
+			productReference = D62FE0682CDCACDD00A6540E /* Objective-C-PencilKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62FE0822CDCACDF00A6540E /* Objective-C-PencilKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE09B2CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKitTests" */;
+			buildPhases = (
+				D62FE07F2CDCACDF00A6540E /* Sources */,
+				D62FE0802CDCACDF00A6540E /* Frameworks */,
+				D62FE0812CDCACDF00A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62FE0852CDCACDF00A6540E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE0862CDCACDF00A6540E /* Objective-C-PencilKitTests */,
+			);
+			name = "Objective-C-PencilKitTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PencilKitTests";
+			productReference = D62FE0832CDCACDF00A6540E /* Objective-C-PencilKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62FE08C2CDCACDF00A6540E /* Objective-C-PencilKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE09E2CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKitUITests" */;
+			buildPhases = (
+				D62FE0892CDCACDF00A6540E /* Sources */,
+				D62FE08A2CDCACDF00A6540E /* Frameworks */,
+				D62FE08B2CDCACDF00A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62FE08F2CDCACDF00A6540E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE0902CDCACDF00A6540E /* Objective-C-PencilKitUITests */,
+			);
+			name = "Objective-C-PencilKitUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PencilKitUITests";
+			productReference = D62FE08D2CDCACDF00A6540E /* Objective-C-PencilKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62FE0602CDCACDD00A6540E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D62FE0672CDCACDD00A6540E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D62FE0822CDCACDF00A6540E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D62FE0672CDCACDD00A6540E;
+					};
+					D62FE08C2CDCACDF00A6540E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D62FE0672CDCACDD00A6540E;
+					};
+				};
+			};
+			buildConfigurationList = D62FE0632CDCACDD00A6540E /* Build configuration list for PBXProject "Objective-C-PencilKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62FE05F2CDCACDD00A6540E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D62FE0692CDCACDD00A6540E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62FE0672CDCACDD00A6540E /* Objective-C-PencilKit */,
+				D62FE0822CDCACDF00A6540E /* Objective-C-PencilKitTests */,
+				D62FE08C2CDCACDF00A6540E /* Objective-C-PencilKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62FE0662CDCACDD00A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0812CDCACDF00A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE08B2CDCACDF00A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62FE0642CDCACDD00A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE07F2CDCACDF00A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0892CDCACDF00A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62FE0852CDCACDF00A6540E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62FE0672CDCACDD00A6540E /* Objective-C-PencilKit */;
+			targetProxy = D62FE0842CDCACDF00A6540E /* PBXContainerItemProxy */;
+		};
+		D62FE08F2CDCACDF00A6540E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62FE0672CDCACDD00A6540E /* Objective-C-PencilKit */;
+			targetProxy = D62FE08E2CDCACDF00A6540E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D62FE0972CDCACDF00A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-PencilKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62FE0982CDCACDF00A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-PencilKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62FE0992CDCACDF00A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D62FE09A2CDCACDF00A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62FE09C2CDCACDF00A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-PencilKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-PencilKit";
+			};
+			name = Debug;
+		};
+		D62FE09D2CDCACDF00A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-PencilKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-PencilKit";
+			};
+			name = Release;
+		};
+		D62FE09F2CDCACDF00A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-PencilKit";
+			};
+			name = Debug;
+		};
+		D62FE0A02CDCACDF00A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PencilKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-PencilKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62FE0632CDCACDD00A6540E /* Build configuration list for PBXProject "Objective-C-PencilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE0992CDCACDF00A6540E /* Debug */,
+				D62FE09A2CDCACDF00A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE0962CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE0972CDCACDF00A6540E /* Debug */,
+				D62FE0982CDCACDF00A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE09B2CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE09C2CDCACDF00A6540E /* Debug */,
+				D62FE09D2CDCACDF00A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE09E2CDCACDF00A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PencilKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE09F2CDCACDF00A6540E /* Debug */,
+				D62FE0A02CDCACDF00A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62FE0602CDCACDD00A6540E /* Project object */;
+}
